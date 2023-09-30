@@ -1070,7 +1070,7 @@ form textarea {
     }
     #nav-menu {
         display: grid;
-        grid-template-columns: repeat(1, 1fr);
+        grid-template-columns: 3fr 1fr;
     }
     * {
         padding: 0;
@@ -1087,10 +1087,6 @@ form textarea {
         display: flex;
         align-content: stretch;
         justify-content: center;
-    }
-    #nav-menu {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
     }
     #home {
         margin-top: 170px;
